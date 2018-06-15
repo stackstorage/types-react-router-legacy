@@ -8,8 +8,8 @@ import {
     RouteComponents,
     RoutePattern,
     RouterState
-} from "react-router-legacy";
-import { IndexRouteProps } from "react-router-legacy/lib/IndexRoute";
+} from "../";
+import { IndexRouteProps } from "./IndexRoute";
 
 export interface RouteProps extends IndexRouteProps {
     path?: RoutePattern;

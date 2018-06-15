@@ -1,5 +1,5 @@
 import { History } from "history";
-import { CreateHistory } from "react-router-legacy";
+import { CreateHistory } from "../";
 
 declare const createMemoryHistory: CreateHistory<History>;
 

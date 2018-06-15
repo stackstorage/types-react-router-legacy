@@ -1,5 +1,5 @@
 import { History } from "history";
-import { CreateHistoryEnhancer } from "react-router-legacy";
+import { CreateHistoryEnhancer } from "../";
 
 declare const useRouterHistory: CreateHistoryEnhancer<History>;
 

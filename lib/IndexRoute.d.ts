@@ -7,7 +7,7 @@ import {
     RouteComponent,
     RouteComponents,
     RouterState
-} from "react-router-legacy";
+} from "../";
 
 type ComponentCallback = (err: any, component: RouteComponent) => void;
 type ComponentsCallback = (err: any, components: RouteComponents) => void;

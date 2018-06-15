@@ -35,36 +35,36 @@ export {
     RouterState,
     StringifyQuery,
     Query
-} from "react-router-legacy/Router";
-export { LinkProps } from "react-router-legacy/Link";
-export { IndexLinkProps } from "react-router-legacy/IndexLink";
-export { RouteProps, PlainRoute } from "react-router-legacy/Route";
-export { IndexRouteProps } from "react-router-legacy/IndexRoute";
-export { RedirectProps } from "react-router-legacy/Redirect";
-export { IndexRedirectProps } from "react-router-legacy/IndexRedirect";
+} from "./lib/Router";
+export { LinkProps } from "./lib/Link";
+export { IndexLinkProps } from "./lib/IndexLink";
+export { RouteProps, PlainRoute } from "./lib/Route";
+export { IndexRouteProps } from "./lib/IndexRoute";
+export { RedirectProps } from "./lib/Redirect";
+export { IndexRedirectProps } from "./lib/IndexRedirect";
 
 /* components */
-export { default as Router } from "react-router-legacy/Router";
-export { default as Link } from "react-router-legacy/Link";
-export { default as IndexLink } from "react-router-legacy/IndexLink";
-export { default as withRouter } from "react-router-legacy/withRouter";
+export { default as Router } from "./lib/Router";
+export { default as Link } from "./lib/Link";
+export { default as IndexLink } from "./lib/IndexLink";
+export { default as withRouter } from "./lib/withRouter";
 
 /* components (configuration) */
-export { default as IndexRedirect } from "react-router-legacy/IndexRedirect";
-export { default as IndexRoute } from "react-router-legacy/IndexRoute";
-export { default as Redirect } from "react-router-legacy/Redirect";
-export { default as Route } from "react-router-legacy/Route";
+export { default as IndexRedirect } from "./lib/IndexRedirect";
+export { default as IndexRoute } from "./lib/IndexRoute";
+export { default as Redirect } from "./lib/Redirect";
+export { default as Route } from "./lib/Route";
 
 /* utils */
-export { createRoutes } from "react-router-legacy/RouteUtils";
-export { default as RouterContext } from "react-router-legacy/RouterContext";
-export { routerShape, locationShape } from "react-router-legacy/PropTypes";
-export { default as match } from "react-router-legacy/match";
-export { default as useRouterHistory } from "react-router-legacy/useRouterHistory";
-export { formatPattern } from "react-router-legacy/PatternUtils";
-export { default as applyRouterMiddleware } from "react-router-legacy/applyRouterMiddleware";
+export { createRoutes } from "./lib/RouteUtils";
+export { default as RouterContext } from "./lib/RouterContext";
+export { routerShape, locationShape } from "./lib/PropTypes";
+export { default as match } from "./lib/match";
+export { default as useRouterHistory } from "./lib/useRouterHistory";
+export { formatPattern } from "./lib/PatternUtils";
+export { default as applyRouterMiddleware } from "./lib/applyRouterMiddleware";
 
 /* histories */
-export { default as browserHistory } from "react-router-legacy/browserHistory";
-export { default as hashHistory } from "react-router-legacy/hashHistory";
-export { default as createMemoryHistory } from "react-router-legacy/createMemoryHistory";
+export { default as browserHistory } from "./lib/browserHistory";
+export { default as hashHistory } from "./lib/hashHistory";
+export { default as createMemoryHistory } from "./lib/createMemoryHistory";

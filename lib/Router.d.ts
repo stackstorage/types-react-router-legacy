@@ -10,7 +10,7 @@ import {
     Pathname,
     Search
 } from "history";
-import { PlainRoute } from "react-router-legacy";
+import { PlainRoute } from "../";
 
 /* Replacement from old history definitions */
 export type Basename = string;

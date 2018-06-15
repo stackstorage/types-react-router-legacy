@@ -1,5 +1,5 @@
 import { ComponentClass, CSSProperties, HTMLProps } from "react";
-import { Location, LocationDescriptor } from "react-router-legacy/lib/Router";
+import { Location, LocationDescriptor } from "./Router";
 
 type ToLocationFunction = (location: Location) => LocationDescriptor;
 

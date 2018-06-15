@@ -1,5 +1,5 @@
-import { RouteComponent } from "react-router-legacy";
-import RouterContext from "react-router-legacy/lib/RouterContext";
+import { RouteComponent } from "../";
+import RouterContext from "./RouterContext";
 
 export interface Middleware {
     renderRouterContext?: (previous: RouterContext, props: any) => RouterContext;
