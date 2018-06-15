@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "Sergey Buturlakin",
+    "email": "https://github.com/sergey-buturlakin"
+  },
+  "dependencies": {
+    "@types/history": "*",
+    "@types/react": "*"
+  },
+  "description": "TypeScript definitions for react-router. v3 fork for Trove.",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/react-router-legacy",
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.1",
+  "typesPublisherContentHash": "3372800c3375d18444cdf8b161ebff138a59d0f179cef4a93f46cd6372828e3d",
+  "version": "3.0.2"
+}
